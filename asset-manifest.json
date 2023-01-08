@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/portfolio-react-video-histing-website/static/css/main.ddf984f5.css",
+    "main.js": "/portfolio-react-video-histing-website/static/js/main.aa979dfd.js",
+    "static/media/singleImg.jpeg": "/portfolio-react-video-histing-website/static/media/singleImg.b32221d9c79b070b7f1e.jpeg",
+    "static/media/poster6.webp": "/portfolio-react-video-histing-website/static/media/poster6.bf3eedafc14602542c8b.webp",
+    "static/media/poster1.jpeg": "/portfolio-react-video-histing-website/static/media/poster1.a2c224946e8c6e073f07.jpeg",
+    "static/media/poster5.jpeg": "/portfolio-react-video-histing-website/static/media/poster5.a0f5b9bfb2456459df51.jpeg",
+    "static/media/customerPhoto.jpeg": "/portfolio-react-video-histing-website/static/media/customerPhoto.7aa6413578b6185014cc.jpeg",
+    "static/media/poster2.jpg": "/portfolio-react-video-histing-website/static/media/poster2.4ddb456a2049a3daba57.jpg",
+    "static/media/poster3.avif": "/portfolio-react-video-histing-website/static/media/poster3.769c33a0b82dc6930984.avif",
+    "static/media/poster4.jpeg": "/portfolio-react-video-histing-website/static/media/poster4.1eac531d762c570d69cd.jpeg",
+    "static/media/logo.svg": "/portfolio-react-video-histing-website/static/media/logo.14528ea7f27b3136b7e5a3e3813a841a.svg",
+    "index.html": "/portfolio-react-video-histing-website/index.html",
+    "main.ddf984f5.css.map": "/portfolio-react-video-histing-website/static/css/main.ddf984f5.css.map",
+    "main.aa979dfd.js.map": "/portfolio-react-video-histing-website/static/js/main.aa979dfd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ddf984f5.css",
+    "static/js/main.aa979dfd.js"
+  ]
+}
