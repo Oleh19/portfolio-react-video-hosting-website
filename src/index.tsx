@@ -6,13 +6,15 @@ import 'swiper/css/pagination'
 import 'swiper/css/navigation'
 import 'aos'
 import 'aos/dist/aos.css'
-import { BrowserRouter } from 'react-router-dom'
+import { BrowserRouter, HashRouter } from 'react-router-dom'
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement)
 root.render(
 	<React.StrictMode>
-		<BrowserRouter basename={process.env.PUBLIC_URL}>
+		<HashRouter basename={process.env.PUBLIC_URL}>
+			{/* <BrowserRouter> */}
 			<App />
-		</BrowserRouter>
+			{/* </BrowserRouter> */}
+		</HashRouter>
 	</React.StrictMode>
 )
