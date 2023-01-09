@@ -3,6 +3,13 @@ interface IMessageProps {
 	placeholder: string
 }
 
+interface IInputProps {
+	label: string
+	placeholder: string
+	type: string
+	bg: boolean
+}
+
 export const Message = ({ label, placeholder }: IMessageProps) => {
 	return (
 		<div className='text-sm w-full'>
@@ -30,5 +37,17 @@ export const Select = ({ label, options, onChange }: any) => {
 				))}
 			</select>
 		</>
+	)
+}
+
+export const Input = ({ label, placeholder, type, bg }: IInputProps) => {
+	return (
+		<div className='text-sm w-full'>
+			<label  className='text-border font-semibold'>{label}</label>
+			<input required type={type} placeholder={placeholder}  className={`w-full text-sm mt-2 p-5 border-border border rounded text-white ${
+				bg ? 'bg-main' : 'bg-dry'
+			}  `} />
+
+		</div>
 	)
 }

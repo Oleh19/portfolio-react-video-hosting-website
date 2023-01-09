@@ -67,7 +67,7 @@ export const MovieRates: FC<IMovieInfoProps> = ({ name }) => {
 				<div className='col-span-3 flex flex-col gap-6'>
 					<h3 className='text-xl text-text font-semibold'>Reviews (70)</h3>
 					<div className='w-full flex flex-col bg-main gap-6 rounded-lg md:p-12 p-6 h-header overflow-y-scroll'>
-						{UsersData.map((user, index) => (
+						{UsersData.map((user) => (
 							<div className='md:grid flex flrx-col w-full grid-cols-12 gap-6 bg-dry p-4 border border-gray-800 rounded'>
 								<div className='col-span-2 bg-main hidden md:block'>
 									<img
@@ -81,6 +81,9 @@ export const MovieRates: FC<IMovieInfoProps> = ({ name }) => {
 									<p className='text-xs leading-6 font-medium text-text'>
 										{user?.message}
 									</p>
+								</div>
+								<div className="col-span-3 flex flex-rows border-l border-border text-xs gap-1 text-star">
+									<Rating rate={user?.rate} />
 								</div>
 							</div>
 						))}

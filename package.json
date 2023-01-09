@@ -1,8 +1,8 @@
 {
-	"name": "portfolio-video-hosting",
+	"name": "portfolio-react-video-hosting-website",
 	"version": "0.1.0",
-	"homepage": "https://Oleh19.github.io/portfolio-react-videoHostingSite",
-	"private": true,
+	"homepage": "https://Oleh19.github.io/portfolio-react-video-hosting-website",
+	"private": false,
 	"dependencies": {
 		"@headlessui/react": "^1.7.7",
 		"@heroicons/react": "^2.0.13",
