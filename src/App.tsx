@@ -16,6 +16,8 @@ import { FavoriteMovies } from './pages/dashboard/FavoriteMovies'
 import { MovieList } from './pages/dashboard/admin/MovieList'
 import { Dashboard } from './pages/dashboard/admin/Dashboard'
 import { Categories } from './pages/dashboard/admin/Categories'
+import { Users } from './pages/dashboard/admin/Users'
+import { AddMovie } from './pages/dashboard/admin/AddMovie'
 
 export const App: FC = () => {
 	Aos.init()
@@ -36,6 +38,8 @@ export const App: FC = () => {
 			<Route path='/movieslist' element={<MovieList />} />
 			<Route path='/dashboard' element={<Dashboard />} />
 			<Route path='/categories' element={<Categories />} />
+			<Route path='/users' element={<Users />} />
+			<Route path='/addmovie' element={<AddMovie />} />
 			<Route path='*' element={<NotFound />} />
 		</Routes>
 	)

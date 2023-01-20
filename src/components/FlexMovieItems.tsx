@@ -1,9 +1,9 @@
 import { FC } from 'react'
 import { FaRegCalendarAlt } from 'react-icons/fa'
 import { BiTime } from 'react-icons/bi'
-import { IMovieInfoProps } from './singlePage/MovieInfo'
+import { IMovieProps } from './singlePage/MovieInfo'
 
-export const FlexMovieItems: FC<IMovieInfoProps> = ({
+export const FlexMovieItems: FC<IMovieProps> = ({
 	category,
 	year,
 	time

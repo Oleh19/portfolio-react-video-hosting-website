@@ -1,6 +1,7 @@
-import { FC } from 'react'
+import { FC, useState } from 'react'
 import { BsCollectionFill } from 'react-icons/bs'
 import { useParams } from 'react-router'
+import { ShareModal } from '../components/modals/ShareModal'
 import { Movie } from '../components/Movie'
 import { MovieCast } from '../components/singlePage/MovieCast'
 import { MovieInfo } from '../components/singlePage/MovieInfo'
@@ -13,10 +14,17 @@ export const SingleMovie: FC = () => {
 	const { id } = useParams()
 	const movie = Movies.find(movie => movie.name === id)
 	const RelatedMovies = Movies.filter(m => m.category === movie?.category)
+	const [modalOpen, setModalOpen] = useState(false)
 
 	return (
 		<Layout>
-			<MovieInfo {...movie} />
+			<ShareModal
+				modalOpen={modalOpen}
+				setModalOpen={setModalOpen}
+				movie={movie}
+			/>
+			<MovieInfo modalOpen={modalOpen}
+				setModalOpen={setModalOpen} movie={movie}/>
 			<div className='container mx-auto min-h-screen px-2 my-6'>
 				<MovieCast />
 				<MovieRates {...movie} />

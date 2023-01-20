@@ -4,9 +4,9 @@ import { UsersData } from '../../data/UsersData'
 import { Rating } from '../Stars'
 import { Titles } from '../Titles'
 import { Message, Select } from '../UsedInputs'
-import { IMovieInfoProps } from './MovieInfo'
+import { IMovieProps } from './MovieInfo'
 
-export const MovieRates: FC<IMovieInfoProps> = ({ name }) => {
+export const MovieRates: FC<IMovieProps> = ({ name }) => {
 	const Ratings = [
 		{
 			title: '0 - Poor',

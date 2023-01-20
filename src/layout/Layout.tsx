@@ -1,5 +1,6 @@
 import { FC } from 'react'
 import { Footer } from './footer/Footer'
+import { MobileFooter } from './footer/MobileFooter'
 import { NavBar } from './navBar/NavBar'
 
 interface ILayoutChildren {
@@ -13,6 +14,7 @@ export const Layout: FC<ILayoutChildren> = ({ children }) => {
 				<NavBar />
 				{children}
 				<Footer />
+				<MobileFooter />
 			</div>
 		</>
 	)

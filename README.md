@@ -1,1 +1,3 @@
-- An unfinished version
+- React
+- TS
+- TailwindCSS
