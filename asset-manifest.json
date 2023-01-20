@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-react-video-hosting-website/static/css/main.483b1053.css",
-    "main.js": "/portfolio-react-video-hosting-website/static/js/main.14424c63.js",
+    "main.css": "/portfolio-react-video-hosting-website/static/css/main.68acdbb7.css",
+    "main.js": "/portfolio-react-video-hosting-website/static/js/main.c5aa89dd.js",
     "static/media/video.mp4": "/portfolio-react-video-hosting-website/static/media/video.ed2d1fd55710060ec794.mp4",
     "static/media/singleImg.jpeg": "/portfolio-react-video-hosting-website/static/media/singleImg.b32221d9c79b070b7f1e.jpeg",
     "static/media/page not found.webp": "/portfolio-react-video-hosting-website/static/media/page not found.ff69f213133ff3956a77.webp",
@@ -14,11 +14,11 @@
     "static/media/poster4.jpeg": "/portfolio-react-video-hosting-website/static/media/poster4.1eac531d762c570d69cd.jpeg",
     "static/media/logo.svg": "/portfolio-react-video-hosting-website/static/media/logo.14528ea7f27b3136b7e5a3e3813a841a.svg",
     "index.html": "/portfolio-react-video-hosting-website/index.html",
-    "main.483b1053.css.map": "/portfolio-react-video-hosting-website/static/css/main.483b1053.css.map",
-    "main.14424c63.js.map": "/portfolio-react-video-hosting-website/static/js/main.14424c63.js.map"
+    "main.68acdbb7.css.map": "/portfolio-react-video-hosting-website/static/css/main.68acdbb7.css.map",
+    "main.c5aa89dd.js.map": "/portfolio-react-video-hosting-website/static/js/main.c5aa89dd.js.map"
   },
   "entrypoints": [
-    "static/css/main.483b1053.css",
-    "static/js/main.14424c63.js"
+    "static/css/main.68acdbb7.css",
+    "static/js/main.c5aa89dd.js"
   ]
 }
